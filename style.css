@@ -24,7 +24,7 @@ body {
 }
 
 .logo-cabecalho{
-    margin-right: 350px;
+    margin-right: 280px;
     cursor: pointer;
 }
 
@@ -57,13 +57,13 @@ a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
+    padding: 100px;
 }
 
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
 .conteudo-principal-titulo {
@@ -81,6 +81,22 @@ a:hover{
     color: rgb(237, 221, 202);
 
 }
+
+.conteudo-principal-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-input{
+    color: black;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 70%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
 
 .conteudo-principal-botao-adicione {
     color: antiquewhite;
@@ -102,7 +118,7 @@ a:hover{
 
 
 .conteudo-principal-imagem{
-    height: 350px;
+    height: 400px;
 }
 
 /* CONTEUDO SECUNDARIO */
