@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20rem;
+    padding: 20px;
 }
 
 .logo-cabecalho{
